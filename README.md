@@ -1,11 +1,11 @@
-sql-over-ssh-tunnel
+Run sql queries over an ssh tunnel.
 ===================
 
-Sample code to run sql queries via ssh-tunnel to a target database
+In some scenarios the database may not be directly accessible. But is available via a hop server.
 
 To use this piece of code following needs to be done
-1. Configure database password in jvm. Property name should be "dbPassword"
-2. Configure ssh host password in jvm. Property name should be "sshHostPassword"
-3. Configure database properties as case objects in com.charandeepmatta.dbtunnel .
-4. Define ssh server config in com.charandeepmatta.dbtunnel.SshConnectionConfig
+* Configure database password in jvm. Property name should be `dbPassword`
+* Configure ssh host password in jvm. Property name should be `sshHostPassword`
+* Configure database properties as case objects in `com.charandeepmatta.dbtunnel`.
+* Define ssh server config in `com.charandeepmatta.dbtunnel.SshConnectionConfig`.
 
