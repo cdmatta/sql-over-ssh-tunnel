@@ -19,3 +19,5 @@ libraryDependencies ++= Seq(
                             "org.springframework" % "spring-context" % "3.1.2.RELEASE",
                             "org.springframework" % "spring-expression" % "3.1.2.RELEASE"
                            )
+
+scalacOptions += "-deprecation"
