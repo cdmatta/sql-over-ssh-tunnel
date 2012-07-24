@@ -17,7 +17,8 @@ libraryDependencies ++= Seq(
                             "org.springframework" % "spring-tx" % "3.1.2.RELEASE",
                             "org.springframework" % "spring-aop" % "3.1.2.RELEASE",
                             "org.springframework" % "spring-context" % "3.1.2.RELEASE",
-                            "org.springframework" % "spring-expression" % "3.1.2.RELEASE"
+                            "org.springframework" % "spring-expression" % "3.1.2.RELEASE",
+                            "mysql" % "mysql-connector-java" % "5.1.21"
                            )
 
 scalacOptions += "-deprecation"
