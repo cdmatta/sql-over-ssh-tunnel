@@ -1,8 +1,8 @@
 package com.charandeepmatta.dbtunnel
 
 import com.jcraft.jsch.JSch
-import java.util.{Properties => JProperties}
 import java.sql.DriverManager
+import java.util.{Properties => JProperties}
 import org.springframework.jdbc.core.JdbcTemplate
 import org.springframework.jdbc.datasource.SingleConnectionDataSource
 
