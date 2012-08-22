@@ -1,6 +1,8 @@
 Run sql queries over an ssh tunnel.
 ===================
 
+http://charandeepmatta.com/2012/07/27/tunnel-database-connection-via-ssh-and-executing-sql-queries-in-code/
+
 In some scenarios the database may not be directly accessible. But is available via a hop server.
 
 To use this piece of code following needs to be done
